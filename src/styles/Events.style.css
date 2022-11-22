@@ -1,0 +1,51 @@
+.outerBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 60vw;
+    background: none;
+}
+
+.type {
+    font-size: 2rem;
+    font-weight: bold;
+    background: none;    
+}
+
+.name, .date{
+    background: none;
+}
+
+.WatchEvent {
+    background-color: #ffba08;
+}
+
+.PushEvent {
+    background-color: #b9fbc0;
+}
+
+.CreateEvent {
+    background-color: #ff8fab;
+}
+
+.PublicEvent {
+    background-color: #ffbe8f;
+}
+
+.ForkEvent {
+    background-color: #f1c0e8;
+}
+
+.PullRequestEvent {
+    background-color: #c77dff;
+}
+
+@media(max-width:650px){
+    .outerBox{
+        width: 90%;
+        height: auto;
+    }
+}
+

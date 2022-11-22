@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 30vw;
+    border-right: solid 3px #333;
+    background: none;
+}
+
+.activity {
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 70vw;
+    overflow: auto;
+    background: none;
+}
+
+.input {
+    font-size: 1.2rem;
+    margin: 0 20px;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    outline: none;
+    background: none;
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+.seach_icon{
+    position: absolute;
+    left: 400px;
+    background: none;
+}
+
+@media(max-width: 920px){
+    .container{
+        flex-direction: column;
+        column-gap: 0;
+    }
+
+    .profile{
+        border: none;
+        margin: 1rem;
+        margin-bottom: 0;
+        width: 100%;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .input{
+        
+        background: none;
+    }
+
+    .activity{
+        width: 100% !important;
+        margin-top: 0;
+        align-items: center;
+        margin: 0;
+        padding: 1rem 0;
+    }
+
+    input::placeholder{
+        font-size: 1.1rem;
+    }
+}

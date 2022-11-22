@@ -1,0 +1,43 @@
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    
+}
+
+.mainTitle {
+    font-size: 4em;
+    background: none;
+}
+
+.subTitle {
+    font-size: 1.5em;
+    background: none;
+}
+
+
+@media(min-width:1200px){
+    .mainTitle {
+        font-size: 3em;
+    }
+    
+    .subTitle {
+        font-size: 1.2em;
+    }
+}
+
+@media(max-width: 920px){
+    .mainTitle{
+        font-size: 2em;
+    }
+
+    .subTitle{
+        font-size: 1em;
+    }
+
+    .titleContainer{
+        margin: 1rem;
+    }
+}

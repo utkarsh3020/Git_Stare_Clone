@@ -1,0 +1,53 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background: none;
+}
+
+.image_tag {
+    background: none;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: none;
+}
+
+.username {
+    font-size: 3rem;
+    background: none;
+}
+
+.extraInfo {
+    display: flex;
+    margin: 10px;
+    background: none;
+}
+
+.repos, .followers, .following{
+    padding: 1rem;
+    border-radius: 10px;
+    background: blanchedalmond;
+    margin-right: 5px;
+}
+
+@media(max-width: 1150px){
+    .username{
+        font-size: 1.5em;
+    }
+}
+
+@media(max-width: 520px){
+    .repos, .followers, .following{
+        padding: 0.5rem;
+    }
+
+    .extraInfo{
+        font-size: small;
+    }
+}

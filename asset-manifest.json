@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Git_Stare_Clone/static/css/main.ca5204e0.css",
+    "main.js": "/Git_Stare_Clone/static/js/main.9633b9d5.js",
+    "index.html": "/Git_Stare_Clone/index.html",
+    "main.ca5204e0.css.map": "/Git_Stare_Clone/static/css/main.ca5204e0.css.map",
+    "main.9633b9d5.js.map": "/Git_Stare_Clone/static/js/main.9633b9d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca5204e0.css",
+    "static/js/main.9633b9d5.js"
+  ]
+}
